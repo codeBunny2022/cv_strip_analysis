@@ -32,4 +32,10 @@ To use the web application, the user makes a POST request containing their name,
 This project requires the following Python libraries: Flask, Werkzeug, and opencv-python-headless. These can be installed by using the `requirements.txt` file included with the project.
 
 ```bash
+python3 -m venv myvenv
+
+source myvenv/bin/activate
+
 pip install -r requirements.txt
+
+python3 webnode.py
